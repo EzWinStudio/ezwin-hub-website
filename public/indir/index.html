@@ -376,21 +376,21 @@
         <a href="https://orbita.wasmer.app">Web uygulaması</a>
         <a href="#kurulum">Kurulum</a>
         <a href="#gereksinimler">Gereksinimler</a>
-        <a class="nav-cta" href="/download/Orbita-Setup-2.0.1.exe" download>İndir</a>
+        <a class="nav-cta" href="/download/Orbita-Setup-2.1.0.exe" download>İndir</a>
       </nav>
     </header>
 
     <main>
       <section class="hero" style="border-top: 0; padding-top: 44px;">
         <div>
-          <span class="eyebrow"><span class="eyebrow-dot"></span>Windows masaüstü · v2.0.1</span>
+          <span class="eyebrow"><span class="eyebrow-dot"></span>Windows masaüstü · v2.1.0</span>
           <h1>Orbita<br /><em>masaüstünde.</em></h1>
           <p class="lede">
             Şirketlerini, servislerini ve finansını tek ekranda topla. Orbita tepside çalışır;
             site ve bot sağlığını arka planda izler. Verilerin bu cihazda kalır.
           </p>
           <div class="download-row">
-            <a class="download" href="/download/Orbita-Setup-2.0.1.exe" download>
+            <a class="download" href="/download/Orbita-Setup-2.1.0.exe" download>
               <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
                 <path d="M12 3v11" />
                 <path d="m7.5 10 4.5 4.5 4.5-4.5" />
@@ -461,7 +461,7 @@
           <article class="step">
             <span class="step-num">01 / İNDİR</span>
             <h3>Kurulum dosyasını al</h3>
-            <p>Orbita-Setup-2.0.1.exe dosyasını indir. Tek dosya, harici bağımlılık yok.</p>
+            <p>Orbita-Setup-2.1.0.exe dosyasını indir. Tek dosya, harici bağımlılık yok.</p>
           </article>
           <article class="step">
             <span class="step-num">02 / ÇALIŞTIR</span>
@@ -471,7 +471,7 @@
           <article class="step">
             <span class="step-num">03 / BAŞLA</span>
             <h3>Hesabınla devam et</h3>
-            <p>Yerel hesabınla giriş yap veya hesap oluşturmadan devam et. Veriler bu cihazda kalır.</p>
+            <p>Hesabını seç, giriş yap veya hesap oluşturmadan devam et. Birden fazla hesap eklenebilir; veriler bu cihazda kalır.</p>
           </article>
         </div>
       </section>
@@ -534,8 +534,8 @@
           <div class="panel privacy">
             <h3>Verilerin senin.</h3>
             <p><strong>Mevcut veriler korunur.</strong> Eski EZWIN HUB Tray kurulumu kaldırılsa da veri klasörleri, WebView2 profili, DPAPI bot sırları ve yedekler yerinde kalır.</p>
-            <p><strong>Yerel öncelikli.</strong> Hesaplar ve şirket verileri cihazda tutulur. Eşitleme açıksa sunucuya yalnızca şifreli paket gider; bot tokenları ve şifreler eşitlenmez.</p>
-            <p><strong>Geri dönüş yok.</strong> Eşitleme kodunu kaybedersen şifreli verilere erişilemez. Kodu güvenli bir yerde sakla.</p>
+            <p><strong>Yerel öncelikli.</strong> Hesaplar ve şirket verileri cihazda tutulur. Birden fazla hesap eklenebilir; her hesabın çalışma alanı ayrıdır. Eşitleme açıksa sunucuya yalnızca şifreli paket gider; bot tokenları ve şifreler eşitlenmez.</p>
+            <p><strong>Geri dönüş yok.</strong> Eşitleme kodunu kaybedersen şifreli verilere erişilemez. Kodu güvenli bir yerde sakla. Başka bir cihazda giriş için hesap dosyasını dışa aktarabilirsin; dosyayı gizli tut.</p>
           </div>
         </div>
       </section>
@@ -544,9 +544,9 @@
         <div class="cta">
           <div>
             <h2>Komuta merkezini masaya taşı.</h2>
-            <p>Orbita 2.0.1 · Windows 10/11 · kurulum mevcut verilerini korur.</p>
+            <p>Orbita 2.1.0 · Windows 10/11 · kurulum mevcut verilerini korur.</p>
           </div>
-          <a class="download" href="/download/Orbita-Setup-2.0.1.exe" download>
+          <a class="download" href="/download/Orbita-Setup-2.1.0.exe" download>
             <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 3v11" /><path d="m7.5 10 4.5 4.5 4.5-4.5" /><path d="M5 17.5V19h14v-1.5" /></svg>
             <span><strong>Windows için indir</strong><em>64-bit · 1.4 MB</em></span>
             <svg class="download-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
@@ -572,7 +572,7 @@
       const toast = document.getElementById('toast');
       let hash = '';
       try {
-        const response = await fetch('/download/Orbita-Setup-2.0.1.sha256', { cache: 'no-store' });
+        const response = await fetch('/download/Orbita-Setup-2.1.0.sha256', { cache: 'no-store' });
         const text = await response.text();
         hash = (text.match(/[a-f0-9]{64}/i) || [''])[0].toLowerCase();
         code.textContent = hash ? hash.slice(0, 16) + '…' + hash.slice(-8) : 'doğrulanamadı';

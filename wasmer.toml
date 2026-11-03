@@ -1,6 +1,6 @@
 [package]
 name = "ezwinstudio/orbita"
-version = "1.0.2"
+version = "1.0.4"
 description = "Orbita — browser-based local company command center"
 
 [dependencies]

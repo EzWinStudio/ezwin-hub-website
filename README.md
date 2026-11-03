@@ -1,6 +1,6 @@
 # Orbita Web
 
-Orbita'nın tarayıcı ve telefon (PWA) sürümü. React/TypeScript uygulamasının statik üretim çıktısıdır.
+Orbita 2.1.0 tarayıcı ve telefon (PWA) sürümü. React/TypeScript uygulamasının statik üretim çıktısıdır.
 
 - Canlı: https://orbita.wasmer.app
 - Windows indirme sayfası: https://orbita.wasmer.app/indir/
@@ -8,6 +8,7 @@ Orbita'nın tarayıcı ve telefon (PWA) sürümü. React/TypeScript uygulamasın
 - Yayın: Wasmer Edge (`ezwinstudio/orbita`)
 - Kaynak: `public/` klasörü
 - Telefon: Android/Chrome ve iPhone/Safari menüsünden **Ana ekrana ekle** ile PWA olarak kurulur.
+- Hesaplar: Aynı cihaza birden fazla yerel hesap eklenebilir; her hesabın çalışma alanı ayrıdır. Başka bir cihazdaki hesap, hesap dosyası dışa/içe aktarılarak kullanılır.
 - Eşitleme: Ayarlar > Cihaz eşitleme. Veriler AES-GCM ile şifrelenir; sunucu yalnızca şifreli paketi saklar. Bot tokenları ve şifreler eşitlenmez.
 - Sınırlama: Tarayıcı sürümü sahte canlı durum üretmez; site ve bot kontrolleri masaüstü uygulamasında yapılır.
 - Tüm kaynak: https://github.com/EzWinStudio/ezwin-hub-app
