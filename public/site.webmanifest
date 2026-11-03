@@ -4,6 +4,7 @@
   "description": "Tarayıcıda çalışan, verileri yalnızca bu cihazda tutan kişisel şirket komuta merkezi.",
   "lang": "tr",
   "dir": "ltr",
+  "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

@@ -5,6 +5,8 @@ EZWIN HUB'ın tarayıcı sürümü. Statik HTML/CSS/JS; harici çalışma zaman�
 - Canlı: https://ezwin-hub.wasmer.app
 - Yayın: Wasmer Edge (`ezwinstudio/ezwin-hub`)
 - Kaynak: `public/` klasörü
+- Telefon: Android/Chrome ve iPhone/Safari menüsünden **Ana ekrana ekle** ile PWA olarak kurulur.
+- Eşitleme: Ayarlar > Cihaz eşitleme. Veriler AES-GCM ile şifrelenir; sunucu yalnızca şifreli paketi saklar.
 - Sınırlama: Tarayıcı sürümü canlı Discord/Pterodactyl/Gmail kontrolü yapmaz; sahte durum göstermez. Canlı bot ve site izleme için Windows masaüstü uygulamasını kullanın.
 - Tüm kaynak: https://github.com/EzWinStudio/ezwin-hub-app
 
