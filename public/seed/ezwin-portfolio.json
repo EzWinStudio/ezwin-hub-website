@@ -1,0 +1,601 @@
+{
+  "source": "EZWIN public portföyü",
+  "exportedAt": "2026-11-02T13:24:30.967Z",
+  "note": "Yalnızca public şirket ve servis verileri. Finans, görev, not ve anahtarlar yok.",
+  "companies": [
+    {
+      "id": "122de4fe-b9d7-4894-a883-82c27ee40afb",
+      "name": "EzWin Development",
+      "color": "#3ef2b5",
+      "logo": "company-logos/ezwin-development.png",
+      "description": "FiveM ve Discord sistemleri geliştiren stüdyo. Botlar, paneller ve oyun sunucusu altyapıları.",
+      "status": "active",
+      "category": "studio",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "5babc8cf-85a7-434e-9de9-c9abef0d2e52",
+          "label": "Destek Discord",
+          "url": "https://discord.gg/4vYK5vWCy8"
+        },
+        {
+          "id": "187ef3c8-9ad0-4275-be70-e5cea0aa206c",
+          "label": "EzWin Development Discord",
+          "url": "https://discord.gg/gpmMJP3Cu2"
+        },
+        {
+          "id": "1fc9058f-7243-4af0-ab56-dc73c769a489",
+          "label": "GitHub",
+          "url": "https://github.com/EzWinStudio"
+        }
+      ],
+      "createdAt": 1793469635636
+    },
+    {
+      "id": "d889d055-f477-4739-a7b7-cf85dff6548b",
+      "name": "AniMax",
+      "color": "#b98bff",
+      "logo": "company-logos/animax.png",
+      "description": "Anime keşfetme ve bölüm takibi platformu.",
+      "status": "active",
+      "category": "platform",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "d7211f3a-3f23-470c-a3ef-d7059e3c89b0",
+          "label": "AniMax",
+          "url": "https://animax.wasmer.app/"
+        }
+      ],
+      "createdAt": 1793469635636
+    },
+    {
+      "id": "d672b466-bc99-4b8b-9d38-71d94e8acfa4",
+      "name": "EnterScans",
+      "color": "#ff8fd8",
+      "logo": "company-logos/enterscans.png",
+      "description": "Türkçe manga, manhwa, manhua ve webtoon okuma platformu.",
+      "status": "active",
+      "category": "platform",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "f4c05a83-7874-46d4-8cf3-f3afbd1790e6",
+          "label": "EnterScans",
+          "url": "https://enterscans.wasmer.app/"
+        }
+      ],
+      "createdAt": 1793469635636
+    },
+    {
+      "id": "e13466cf-1464-427c-8f54-984c5ed32af8",
+      "name": "EzWinStudio",
+      "color": "#5fc6ff",
+      "logo": "company-logos/ezwinstudio.png",
+      "description": "Roblox Studio ve tasarım ajansı; harita, Luau, 3D ve arayüz tasarımı.",
+      "status": "active",
+      "category": "agency",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "1f6713ab-5968-42ba-8cc0-16490d5a5dbd",
+          "label": "EzWinStudio",
+          "url": "https://ezwinstudio.github.io/EzWinStudio/"
+        },
+        {
+          "id": "0d8f494f-21e9-4c0c-86ec-eb3f21372f9d",
+          "label": "YouTube Kanalı",
+          "url": "https://www.youtube.com/channel/UCJqNiHmyrIS07-IPVRSXAHw"
+        },
+        {
+          "id": "ce0ae2f8-fde0-4338-8730-98d220fdef7b",
+          "label": "Discord",
+          "url": "https://discord.gg/CEPtKbmu9b"
+        },
+        {
+          "id": "6db2d46e-dbc3-430b-97a7-bfbf69d02185",
+          "label": "GitHub",
+          "url": "https://github.com/EzWinStudio"
+        }
+      ],
+      "createdAt": 1793469635636
+    },
+    {
+      "id": "542acec7-4d21-4b30-ad49-4643b6b96c2d",
+      "name": "CATA Store",
+      "color": "#ffc857",
+      "logo": "company-logos/cata-store.png",
+      "description": "Roblox R$ mağazası. Siparişler Discord'da, teslimat grup ödemesiyle.",
+      "status": "maintenance",
+      "category": "store",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "b291ea9d-9270-423e-8ec2-2d9f521d36b5",
+          "label": "CATA-STORE (GitHub)",
+          "url": "https://github.com/EzWinStudio/CATA-STORE"
+        }
+      ],
+      "createdAt": 1793469635636
+    },
+    {
+      "id": "a0c50e09-2913-4319-8cb3-1e77a2916ff7",
+      "name": "EzCraft",
+      "color": "#a8ff60",
+      "logo": "company-logos/ezcraft.png",
+      "description": "Minecraft oyun sunucusu.",
+      "status": "active",
+      "category": "game",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "2cb8a596-4359-4483-8ce7-26e15071d5c8",
+          "label": "EzCraft",
+          "url": "https://ezcraft.wasmer.app"
+        },
+        {
+          "id": "564b9b70-8129-4562-a9dd-d98b19a318e3",
+          "label": "Wasmer paneli",
+          "url": "https://wasmer.io/apps/ezwinstudio/ezcraft"
+        }
+      ],
+      "createdAt": 1793469635636
+    },
+    {
+      "id": "70b65253-e24b-4a8f-9ffc-e6c05b173278",
+      "name": "EzWinMusic",
+      "color": "#9fe8d9",
+      "logo": "company-logos/ezwinmusic.png",
+      "description": "Müzik stüdyosu.",
+      "status": "active",
+      "category": "music",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "2ae5f7ae-a42c-4975-b583-b9da89a247f2",
+          "label": "EzWinMusic",
+          "url": "https://ezwinmusic.wasmer.app"
+        },
+        {
+          "id": "4d8d592b-1d33-4525-ac4d-ea8681fda6b7",
+          "label": "YouTube Kanalı",
+          "url": "https://www.youtube.com/channel/UClKn_gx0vZSNgim6gslJWRQ"
+        },
+        {
+          "id": "54c8d33c-8a1f-41ad-9ad3-de7d412a6379",
+          "label": "Discord",
+          "url": "https://discord.gg/8Y9xmTrxdT"
+        },
+        {
+          "id": "0a458d43-94e6-435e-90cc-67629b5b7956",
+          "label": "Wasmer paneli",
+          "url": "https://wasmer.io/apps/ezwinstudio/ezwinmusic"
+        }
+      ],
+      "createdAt": 1793469635636
+    },
+    {
+      "id": "cf63e522-4717-4053-affb-10dbc4ec5db8",
+      "name": "Şimşek Diecast",
+      "color": "#ff8a1e",
+      "logo": "company-logos/simsek-diecast.png",
+      "description": "Hot Wheels diecast koleksiyonu satışı; Erzincan içi teslimat, 2.000₺ üstü alımlarda kargo.",
+      "status": "active",
+      "category": "store",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "a29081fd-fa80-4bcf-8b43-ba48a7c050e8",
+          "label": "Şimşek Diecast",
+          "url": "https://simsekdiecast.wasmer.app"
+        },
+        {
+          "id": "17387895-da13-481d-8f49-0f5232c5ce15",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/simsekdiecaststore/"
+        },
+        {
+          "id": "f3e13df5-465e-4a0a-9f8f-d0a4c3189492",
+          "label": "Letgo",
+          "url": "https://www.letgo.com/profil/518688416"
+        },
+        {
+          "id": "eaa96acc-a2a8-4a07-a61e-48ebe8c9a6a0",
+          "label": "Dolap",
+          "url": "https://dolap.com/profil/simsekdiecast"
+        },
+        {
+          "id": "c040d2c7-b279-4164-a4c8-ed8470ac59ed",
+          "label": "Wasmer paneli",
+          "url": "https://wasmer.io/apps/ezwinstudio/project3sd"
+        }
+      ],
+      "createdAt": 1793476759777
+    },
+    {
+      "id": "2b9b2316-3ea7-45a6-aaa5-1d481e8d9bfa",
+      "name": "EZWIN Corporation",
+      "color": "#e5484d",
+      "logo": "company-logos/ezwin-corporation.png",
+      "description": "EzWin markalarını tek çatı altında toplayan kurum. Stüdyo, ticaret ve topluluk hatları.",
+      "status": "active",
+      "category": "agency",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "4ec8b7e2-1c98-4e4d-910f-cf46168018e1",
+          "label": "Web sitesi",
+          "url": "https://ezwin-corporation.wasmer.app"
+        },
+        {
+          "id": "586d4937-c956-4edb-b226-b9732d25686b",
+          "label": "Destek Discord",
+          "url": "https://discord.gg/4vYK5vWCy8"
+        }
+      ],
+      "createdAt": 1793524246777
+    },
+    {
+      "id": "e55f471f-8254-466b-92ea-17d3b93f79bc",
+      "name": "EzWin FiveM",
+      "color": "#5ee7f5",
+      "logo": "company-logos/ezwin-fivem.png",
+      "description": "QBCore tabanlı FiveM kaynak paketleri; oxmysql, PolyZone, spawn seçici, txAdmin ve test sunucusu.",
+      "status": "active",
+      "category": "studio",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "ffb23337-1c1a-4097-b789-87830c04134e",
+          "label": "Web sitesi",
+          "url": "https://ezwin-fivem.wasmer.app"
+        },
+        {
+          "id": "c38de16a-91c8-4ac0-a7dd-4a45abab47ec",
+          "label": "Destek Discord",
+          "url": "https://discord.gg/4vYK5vWCy8"
+        }
+      ],
+      "createdAt": 1793524246777
+    },
+    {
+      "id": "78f56d3a-c7d5-4916-9d83-36d9224a2bf4",
+      "name": "EzWin Hesap Hizmetleri",
+      "color": "#5b8cff",
+      "logo": "company-logos/ezwin-hesap-hizmetleri.png",
+      "description": "Hesap kurulumu, erişim ayarları ve dijital teslim süreçleri; doğrulama odaklı akış.",
+      "status": "active",
+      "category": "store",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "a320f970-3f3b-433b-bf60-66568a6a7d44",
+          "label": "Web sitesi",
+          "url": "https://ezwin-hesap.wasmer.app"
+        },
+        {
+          "id": "731ae9e3-1191-4f2a-a203-4ee8dd7b9180",
+          "label": "Destek Discord",
+          "url": "https://discord.gg/4vYK5vWCy8"
+        }
+      ],
+      "createdAt": 1793524246777
+    },
+    {
+      "id": "426815b2-6776-45b3-82ee-2858c6c39680",
+      "name": "EzWin Site Sys",
+      "color": "#c8ff3d",
+      "logo": "company-logos/ezwin-site-sys.png",
+      "description": "Tanıtım siteleri, panel arayüzleri ve ortak tasarım sistemleri üreten web stüdyosu.",
+      "status": "active",
+      "category": "studio",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "682fbddf-cb9f-49dd-9699-907af953b5b0",
+          "label": "Web sitesi",
+          "url": "https://ezwin-site-sys.wasmer.app"
+        },
+        {
+          "id": "bc4b5986-3865-4cfa-a326-fd246c36ecd3",
+          "label": "Destek Discord",
+          "url": "https://discord.gg/4vYK5vWCy8"
+        }
+      ],
+      "createdAt": 1793524246777
+    },
+    {
+      "id": "9af03165-ec30-4b48-8abc-8b1eae00b6c2",
+      "name": "EzWin Template",
+      "color": "#ff8a2b",
+      "logo": "company-logos/ezwin-template.png",
+      "description": "Roblox Studio için menü, HUD ve oyun döngüsü şablonları.",
+      "status": "active",
+      "category": "platform",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "596ffb28-b367-4425-92fd-ab81a8e83f4f",
+          "label": "Web sitesi",
+          "url": "https://ezwin-template.wasmer.app"
+        },
+        {
+          "id": "63787aaa-0b86-4c08-88bc-13067f6b88de",
+          "label": "Destek Discord",
+          "url": "https://discord.gg/4vYK5vWCy8"
+        }
+      ],
+      "createdAt": 1793524246777
+    },
+    {
+      "id": "54dc6ef1-6074-4d6d-b811-4e8495cce01d",
+      "name": "EzWin Uncopylocked",
+      "color": "#ff4d5e",
+      "logo": "company-logos/ezwin-uncopylocked.png",
+      "description": "Roblox Studio için uncopylocked tabanlar, 3D prop setleri ve düzenlenebilir sahneler.",
+      "status": "active",
+      "category": "platform",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "b4bf4876-e4c4-42f0-92d9-88e165e58e05",
+          "label": "Web sitesi",
+          "url": "https://ezwin-uncopylocked.wasmer.app"
+        },
+        {
+          "id": "87093261-788f-4142-a4f2-160797bdb5fd",
+          "label": "Destek Discord",
+          "url": "https://discord.gg/4vYK5vWCy8"
+        }
+      ],
+      "createdAt": 1793524246777
+    },
+    {
+      "id": "c52ed925-5e23-42b8-a82b-bbd2e7001602",
+      "name": "EzWinCheat",
+      "color": "#ff5c8a",
+      "logo": "company-logos/ezwin-cheat.png",
+      "description": "Kendi test ortamında Luau davranışını izleyen, ölçen ve raporlayan çalışma alanı.",
+      "status": "active",
+      "category": "other",
+      "monthlyTarget": null,
+      "links": [
+        {
+          "id": "52ddde13-ecda-4c1c-978d-71e9702b60f2",
+          "label": "Web sitesi",
+          "url": "https://ezwin-cheat.wasmer.app"
+        },
+        {
+          "id": "75e9999e-0f21-48d0-be03-978d1b1375af",
+          "label": "Destek Discord",
+          "url": "https://discord.gg/4vYK5vWCy8"
+        }
+      ],
+      "createdAt": 1793524246777
+    }
+  ],
+  "assets": [
+    {
+      "id": "ed008379-d340-440a-b713-d0ce3de9daa5",
+      "companyId": "122de4fe-b9d7-4894-a883-82c27ee40afb",
+      "type": "website",
+      "name": "EzWin Development",
+      "config": {
+        "url": "https://ezwindevelopment.wasmer.app"
+      },
+      "createdAt": 1793469635636,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "9605fd56-89b4-4e1f-9a5b-e14f718d65b7",
+      "companyId": "122de4fe-b9d7-4894-a883-82c27ee40afb",
+      "type": "website",
+      "name": "EzWin Portfolyo",
+      "config": {
+        "url": "https://ezwin-portfolyo.wasmer.app"
+      },
+      "createdAt": 1793469635636,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "a2e96fce-c2da-4321-98f0-d11135501ef4",
+      "companyId": "122de4fe-b9d7-4894-a883-82c27ee40afb",
+      "type": "discord",
+      "name": "Aegis",
+      "config": {},
+      "createdAt": 1793469635636,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "23f9dc3a-a2e9-4c25-838e-b25535a45aac",
+      "companyId": "122de4fe-b9d7-4894-a883-82c27ee40afb",
+      "type": "discord",
+      "name": "Nexora",
+      "config": {},
+      "createdAt": 1793469635636,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "772e796f-c20b-4563-8d01-4ca33b22b369",
+      "companyId": "122de4fe-b9d7-4894-a883-82c27ee40afb",
+      "type": "discord",
+      "name": "Vertex",
+      "config": {},
+      "createdAt": 1793469635636,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "672cd4dd-71a1-4adf-9fcd-ca0876613517",
+      "companyId": "d889d055-f477-4739-a7b7-cf85dff6548b",
+      "type": "website",
+      "name": "AniMax",
+      "config": {
+        "url": "https://animax.wasmer.app"
+      },
+      "createdAt": 1793469635637,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "20611eb9-cff7-412e-b76d-fbd4e1685e28",
+      "companyId": "d672b466-bc99-4b8b-9d38-71d94e8acfa4",
+      "type": "website",
+      "name": "EnterScans",
+      "config": {
+        "url": "https://enterscans.wasmer.app"
+      },
+      "createdAt": 1793469635637,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "2864652c-ba08-4fc1-b5ea-cedee1ac18e8",
+      "companyId": "e13466cf-1464-427c-8f54-984c5ed32af8",
+      "type": "website",
+      "name": "EzWinStudio",
+      "config": {
+        "url": "https://ezwinstudio.github.io/EzWinStudio/"
+      },
+      "createdAt": 1793469635637,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "1c32f19b-c161-4d45-873d-eca54969f78f",
+      "companyId": "542acec7-4d21-4b30-ad49-4643b6b96c2d",
+      "type": "website",
+      "name": "CATA Store",
+      "config": {
+        "url": "https://cata-store.wasmer.app"
+      },
+      "createdAt": 1793469635637,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "b3b953ee-d7b9-45b7-83e1-79d8b5cdcb1c",
+      "companyId": "a0c50e09-2913-4319-8cb3-1e77a2916ff7",
+      "type": "website",
+      "name": "EzCraft",
+      "config": {
+        "url": "https://ezcraft.wasmer.app"
+      },
+      "createdAt": 1793476759777,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "54771966-171b-467d-a789-66b11ec86a32",
+      "companyId": "70b65253-e24b-4a8f-9ffc-e6c05b173278",
+      "type": "website",
+      "name": "EzWinMusic",
+      "config": {
+        "url": "https://ezwinmusic.wasmer.app"
+      },
+      "createdAt": 1793476759777,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "656524af-d5d6-4e65-b7ed-4b6eae1f4828",
+      "companyId": "cf63e522-4717-4053-affb-10dbc4ec5db8",
+      "type": "website",
+      "name": "Şimşek Diecast",
+      "config": {
+        "url": "https://simsekdiecast.wasmer.app"
+      },
+      "createdAt": 1793476759777,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "dd324555-1456-459e-9b18-9290d581a724",
+      "companyId": "2b9b2316-3ea7-45a6-aaa5-1d481e8d9bfa",
+      "type": "website",
+      "name": "EZWIN Corporation",
+      "config": {
+        "url": "https://ezwin-corporation.wasmer.app"
+      },
+      "createdAt": 1793524246777,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "23acce72-121b-43aa-9c1e-fa13c119d1e2",
+      "companyId": "e55f471f-8254-466b-92ea-17d3b93f79bc",
+      "type": "website",
+      "name": "EzWin FiveM",
+      "config": {
+        "url": "https://ezwin-fivem.wasmer.app"
+      },
+      "createdAt": 1793524246777,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "af7d7ae7-ecb9-41b1-b327-470fb3e3b1db",
+      "companyId": "78f56d3a-c7d5-4916-9d83-36d9224a2bf4",
+      "type": "website",
+      "name": "EzWin Hesap Hizmetleri",
+      "config": {
+        "url": "https://ezwin-hesap.wasmer.app"
+      },
+      "createdAt": 1793524246777,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "40ff97ff-668a-41e0-88d0-fdc30d840be9",
+      "companyId": "426815b2-6776-45b3-82ee-2858c6c39680",
+      "type": "website",
+      "name": "EzWin Site Sys",
+      "config": {
+        "url": "https://ezwin-site-sys.wasmer.app"
+      },
+      "createdAt": 1793524246777,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "0930b45e-1758-45e0-ace3-834dd2fc8dfa",
+      "companyId": "9af03165-ec30-4b48-8abc-8b1eae00b6c2",
+      "type": "website",
+      "name": "EzWin Template",
+      "config": {
+        "url": "https://ezwin-template.wasmer.app"
+      },
+      "createdAt": 1793524246777,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "015d284d-5a5e-43bb-85a9-75cf1ec595cf",
+      "companyId": "54dc6ef1-6074-4d6d-b811-4e8495cce01d",
+      "type": "website",
+      "name": "EzWin Uncopylocked",
+      "config": {
+        "url": "https://ezwin-uncopylocked.wasmer.app"
+      },
+      "createdAt": 1793524246777,
+      "hasSecret": false,
+      "secretHint": null
+    },
+    {
+      "id": "c925b6c6-fb5f-4b50-b4f0-69690b61961c",
+      "companyId": "c52ed925-5e23-42b8-a82b-bbd2e7001602",
+      "type": "website",
+      "name": "EzWinCheat",
+      "config": {
+        "url": "https://ezwin-cheat.wasmer.app"
+      },
+      "createdAt": 1793524246777,
+      "hasSecret": false,
+      "secretHint": null
+    }
+  ]
+}

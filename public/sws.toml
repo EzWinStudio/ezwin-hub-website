@@ -1,0 +1,18 @@
+[advanced]
+cache-control-headers = false
+
+[[advanced.headers]]
+source = "**/*.html"
+headers = { Cache-Control = "no-cache, must-revalidate" }
+
+[[advanced.headers]]
+source = "/assets/*"
+headers = { Cache-Control = "public, max-age=31536000, immutable" }
+
+[[advanced.headers]]
+source = "/company-logos/*"
+headers = { Cache-Control = "no-cache, must-revalidate" }
+
+[[advanced.headers]]
+source = "/seed/*"
+headers = { Cache-Control = "no-cache, must-revalidate" }

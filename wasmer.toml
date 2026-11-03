@@ -1,0 +1,10 @@
+[package]
+name = "ezwinstudio/ezwin-hub"
+version = "0.4.1"
+description = "EZWIN HUB — browser-based local company command center"
+
+[dependencies]
+"wasmer/static-web-server" = "^1"
+
+[fs]
+"/public" = "public"
