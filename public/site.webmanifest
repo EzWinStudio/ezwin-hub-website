@@ -1,7 +1,7 @@
 {
-  "name": "EZWIN HUB",
-  "short_name": "EZWIN HUB",
-  "description": "Tarayıcıda çalışan, verileri yalnızca bu cihazda tutan kişisel şirket komuta merkezi.",
+  "name": "Orbita",
+  "short_name": "Orbita",
+  "description": "Orbita — tarayıcıda çalışan, verileri yalnızca bu cihazda tutan kişisel şirket komuta merkezi.",
   "lang": "tr",
   "dir": "ltr",
   "id": "./",

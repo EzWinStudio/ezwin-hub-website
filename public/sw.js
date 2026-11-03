@@ -1,4 +1,4 @@
-const CACHE = 'ezwin-hub-shell-v1';
+const CACHE = 'orbita-shell-v2';
 const SHELL = ['./', './index.html', './site.webmanifest'];
 
 self.addEventListener('install', (event) => {

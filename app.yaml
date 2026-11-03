@@ -1,8 +1,8 @@
 kind: wasmer.io/App.v0
 owner: ezwinstudio
-name: ezwin-hub
+name: orbita
 package: .
 env:
   SERVER_FALLBACK_PAGE: /public/index.html
   SERVER_CONFIG_FILE: /public/sws.toml
-app_id: da_RrWI0t5UjqoL
+app_id: da_RxJIdtAU030V
