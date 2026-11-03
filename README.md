@@ -3,6 +3,7 @@
 Orbita'nın tarayıcı ve telefon (PWA) sürümü. React/TypeScript uygulamasının statik üretim çıktısıdır.
 
 - Canlı: https://orbita.wasmer.app
+- Windows indirme sayfası: https://orbita.wasmer.app/indir/
 - Eski adres (aynı sürüm): https://ezwin-hub.wasmer.app
 - Yayın: Wasmer Edge (`ezwinstudio/orbita`)
 - Kaynak: `public/` klasörü
