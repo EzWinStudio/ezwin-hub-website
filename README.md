@@ -1,7 +1,8 @@
 # Orbita Web
 
-Orbita 2.1.0 tarayıcı ve telefon (PWA) sürümü. React/TypeScript uygulamasının statik üretim çıktısıdır.
+Orbita 2.1.1 tarayıcı ve telefon (PWA) sürümü. React/TypeScript uygulamasının statik üretim çıktısıdır.
 
+- Sürüm: 2.1.1 (gerçek Orbita logosu, güncel uygulama ikonları)
 - Canlı: https://orbita.wasmer.app
 - Windows indirme sayfası: https://orbita.wasmer.app/indir/
 - Eski adres (aynı sürüm): https://ezwin-hub.wasmer.app
