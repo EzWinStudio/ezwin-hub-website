@@ -1,8 +1,8 @@
 # Orbita Web
 
-Orbita 2.1.1 tarayıcı ve telefon (PWA) sürümü. React/TypeScript uygulamasının statik üretim çıktısıdır.
+Orbita 2.2.0 tarayıcı ve telefon (PWA) sürümü. React/TypeScript uygulamasının statik üretim çıktısıdır.
 
-- Sürüm: 2.1.1 (gerçek Orbita logosu, güncel uygulama ikonları)
+- Sürüm: 2.2.0 (Electron masaüstü, güncel logo ve uygulama ikonları)
 - Canlı: https://orbita.wasmer.app
 - Windows indirme sayfası: https://orbita.wasmer.app/indir/
 - Eski adres (aynı sürüm): https://ezwin-hub.wasmer.app
@@ -21,6 +21,8 @@ wasmer deploy --non-interactive --publish-package
 ```
 
 Bu depo derlenmiş `public/` çıktısını içerir. Kaynak değişikliğinde ana depoda `npm run build:web` çalıştırıp `web-dist/` içeriğini `public/` ile değiştirin.
+
+123 MB boyutundaki `Orbita-Setup-2.2.0.exe`, GitHub'ın 100 MB dosya sınırı nedeniyle bu depoda tutulmaz; canlı sitede `/download/Orbita-Setup-2.2.0.exe` altında yayınlanır ve [sürüm sayfasından](https://github.com/EzWinStudio/ezwin-hub-app/releases/latest) da indirilebilir.
 
 ## İndir
 
