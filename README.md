@@ -1,8 +1,8 @@
 # Orbita Web
 
-Orbita 2.6.5 tarayıcı, telefon (PWA), masaüstü ve Android sürümü. React/TypeScript uygulamasının statik üretim çıktısı ve Wasmer Edge sunucusu.
+Orbita 2.6.6 tarayıcı, telefon (PWA), masaüstü ve Android sürümü. React/TypeScript uygulamasının statik üretim çıktısı ve Wasmer Edge sunucusu.
 
-- Sürüm: 2.6.5 (masaüstü ve Android otomatik güncelleme, pano kopyalama düzeltmesi)
+- Sürüm: 2.6.6 (giriş ekranı avatar düzeltmesi; masaüstü ve Android otomatik güncelleme)
 - Canlı: https://orbita.wasmer.app
 - İndirme sayfası: https://orbita.wasmer.app/indir/
 - Kaynak: https://github.com/EzWinStudio/Orbita
