@@ -17,7 +17,7 @@ import orbita_sync as sync
 PUBLIC_DIR = os.path.abspath(os.environ.get('ORBITA_PUBLIC_DIR') or os.path.join(os.path.dirname(__file__), '..', 'public'))
 COOKIE_NAME = 'orbita_session'
 COOKIE_SECURE = os.environ.get('ORBITA_COOKIE_SECURE', '1') != '0'
-APP_VERSION = '2.6.6'
+APP_VERSION = '2.6.7'
 MOBILE_ORIGINS = {
     'https://localhost',
     'capacitor://localhost',
