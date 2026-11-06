@@ -2,7 +2,11 @@ kind: wasmer.io/App.v0
 owner: ezwinstudio
 name: orbita
 package: .
-env:
-  SERVER_FALLBACK_PAGE: /public/index.html
-  SERVER_CONFIG_FILE: /public/sws.toml
 app_id: da_RxJIdtAU030V
+capabilities:
+  database:
+    engine: mysql
+env:
+  ORBITA_PUBLIC_DIR: /public
+  ORBITA_COOKIE_SECURE: "1"
+  ORBITA_ALLOWED_ORIGINS: https://orbita.wasmer.app

@@ -1,29 +1,28 @@
 # Orbita Web
 
-Orbita 2.3.0 tarayıcı ve telefon (PWA) sürümü. React/TypeScript uygulamasının statik üretim çıktısıdır.
+Orbita 2.6.5 tarayıcı, telefon (PWA), masaüstü ve Android sürümü. React/TypeScript uygulamasının statik üretim çıktısı ve Wasmer Edge sunucusu.
 
-- Sürüm: 2.3.0 (operasyon modülü, canlı pano metrikleri ve haftalık performans grafiği)
+- Sürüm: 2.6.5 (masaüstü ve Android otomatik güncelleme, pano kopyalama düzeltmesi)
 - Canlı: https://orbita.wasmer.app
-- Windows indirme sayfası: https://orbita.wasmer.app/indir/
-- Eski adres (aynı sürüm): https://ezwin-hub.wasmer.app
-- Operasyon: Projeler, ekip ve onay talepleri şirket bazında yönetilir; pano toplam çalışan, aktif proje, tamamlanan görev, gelir/gider, bekleyen onay ve son aktiviteleri gerçek kayıtlardan hesaplar.
-- Yayın: Wasmer Edge (`ezwinstudio/orbita`)
-- Kaynak: `public/` klasörü
+- İndirme sayfası: https://orbita.wasmer.app/indir/
+- Kaynak: https://github.com/EzWinStudio/Orbita
+- Sürümler: https://github.com/EzWinStudio/Orbita/releases
+- Yayın: Wasmer Edge (`ezwinstudio/orbita`), Python/Flask sunucu ve `public/` statik çıktısı
+- Masaüstü: Windows kurulum ve taşınabilir paket; uygulama yeni sürümü GitHub'dan otomatik denetler, SHA-256 ile doğrular ve kapatırken kurar.
+- Android: APK; uygulama içinden güncelleme denetimi, indirme ve doğrulama yapılır. İlk kurulumda Android'in bilinmeyen kaynak izni ve sistem kurulum onayı gerekir.
+- Hesaplar: Wasmer MySQL üzerinde sunucu oturumu; şifreler scrypt ile doğrulanır. Eşitleme paketleri AES-GCM ile şifrelenir; sunucu yalnızca şifreli paketi saklar.
 - Telefon: Android/Chrome ve iPhone/Safari menüsünden **Ana ekrana ekle** ile PWA olarak kurulur.
-- Hesaplar: Aynı cihaza birden fazla yerel hesap eklenebilir; her hesabın çalışma alanı ayrıdır. Başka bir cihazdaki hesap, hesap dosyası dışa/içe aktarılarak kullanılır.
-- Eşitleme: Ayarlar > Cihaz eşitleme. Veriler AES-GCM ile şifrelenir; sunucu yalnızca şifreli paketi saklar. Bot tokenları ve şifreler eşitlenmez.
 - Sınırlama: Tarayıcı sürümü sahte canlı durum üretmez; site ve bot kontrolleri masaüstü uygulamasında yapılır.
-- Tüm kaynak: https://github.com/EzWinStudio/ezwin-hub-app
 
 ## Yayınlama
 
 ```sh
-wasmer deploy --non-interactive --publish-package
+wasmer deploy --non-interactive --dir .
 ```
 
-Bu depo derlenmiş `public/` çıktısını içerir. Kaynak değişikliğinde ana depoda `npm run build:web` çalıştırıp `web-dist/` içeriğini `public/` ile değiştirin.
+Bu depo derlenmiş `public/` çıktısını ve `server/` kaynağını içerir. Kaynak değişikliğinde ana depoda `npm run build:web` çalıştırıp `web-dist/` içeriğini `public/` ile değiştirin; sunucu değişikliklerini `server/` altına kopyalayın.
 
-123 MB boyutundaki `Orbita-Setup-2.3.0.exe`, GitHub'ın 100 MB dosya sınırı nedeniyle bu depoda tutulmaz; canlı sitede `/download/Orbita-Setup-2.3.0.exe` altında yayınlanır ve [sürüm sayfasından](https://github.com/EzWinStudio/ezwin-hub-app/releases/latest) da indirilebilir.
+Kurulum dosyaları GitHub Releases üzerinde tutulur; bu depoda yalnızca SHA-256 dosyaları bulunur. `/download/Orbita-Setup-*.exe` istekleri GitHub sürümüne yönlendirilir.
 
 ## İndir
 
